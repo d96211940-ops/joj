@@ -1,0 +1,77 @@
+# ID предмета = ключ в файле
+items:
+  dragon_helmet:
+    material: GOLDEN_HELMET
+    name: "&6Шлем Дракона"
+    unbreakable: true
+    attributes:
+      - slot:HEAD type:ARMOR amount:3
+      - slot:HEAD type:ARMOR_TOUGHNESS amount:3
+      - slot:HEAD type:KNOCKBACK_RESISTANCE amount:0.1
+    enchants:
+      - protection:4
+      - unbreaking:3
+
+  elite_elytra:
+    material: ELYTRA
+    name: "&cЭлитры Короля"
+    unbreakable: true
+    attributes:
+      - slot:CHEST type:ARMOR amount:8
+      - slot:CHEST type:ARMOR_TOUGHNESS amount:3
+      - slot:CHEST type:KNOCKBACK_RESISTANCE amount:0.1
+
+  improved_elytra:
+    material: ELYTRA
+    name: "&aУлучшенные Элитры"
+    unbreakable: true
+
+  slowdown_snowball:
+    material: SNOWBALL
+    name: "&bЗамедляющий снежок"
+    cooldown: 15
+    effects:
+      - type:SLOWNESS duration:3 amplifier:9
+
+  repair_tool:
+    material: STICK
+    name: "&eРемонтник"
+    cooldown: 600
+    repair:
+      percent: 50
+      targets: [ALL_ARMOR]
+
+  potion_strength:
+    material: SPLASH_POTION
+    name: "&4Многоразовое зелье Силы II"
+    charges: 15
+    potion:
+      type:INCREASE_DAMAGE duration:120 amplifier:1
+
+  potion_speed:
+    material: SPLASH_POTION
+    name: "&bМногоразовое зелье Скорости II"
+    charges: 15
+    potion:
+      type:SPEED duration:120 amplifier:1
+
+  potion_fire_resistance:
+    material: SPLASH_POTION
+    name: "&cМногоразовое зелье Огнеупорности"
+    charges: 15
+    potion:
+      type:FIRE_RESISTANCE duration:3600 amplifier:0
+
+  potion_regeneration:
+    material: SPLASH_POTION
+    name: "&dМногоразовое зелье Регенерации II"
+    charges: 15
+    potion:
+      type:REGENERATION duration:60 amplifier:1
+
+  potion_healing:
+    material: SPLASH_POTION
+    name: "&aМногоразовое зелье Исцеления II"
+    charges: 15
+    potion:
+      type:INSTANT_HEAL amplifier:1
